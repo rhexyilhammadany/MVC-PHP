@@ -1,6 +1,6 @@
 <?php 
 
-<<<<<<< HEAD
+
 class Home extends Controller {
 	public function index()
 =======
