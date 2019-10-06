@@ -70,7 +70,6 @@ class Mahasiswa_model
 
         return $this->db->affected_rows();
     }
-
     public function cariDataMahasiswa()
     {
         $keyword = $_POST['keyword'];
