@@ -1,9 +1,9 @@
-<?php 
+<?php
 
-define('BASEURL', 'http://localhost/Rekweb/phpmvc/public');
+define('BASEURL', 'http://localhost/Rekweb/phpmvc/public/');
 
- // DB
- define('DB_HOST', 'localhost');
- define('DB_USER', 'root');
- define('DB_PASS', '');
- define('DB_NAME', 'phpmvc');
+
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'phpmvc');
