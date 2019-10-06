@@ -30,7 +30,9 @@
  		$this->db->bind('nrp', $data['nrp']);
  		$this->db->bind('email', $data['email']);
  		$this->db->bind('jurusan', $data['jurusan']);
+
  		$this->db->execute();
+ 		
  		return $this->db->rowCount();
  	}
 }
